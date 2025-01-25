@@ -1,0 +1,42 @@
+.Container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: chocolate;
+  margin-left: 10px;
+}
+input,
+select,
+button {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border: none;
+  font-size: 1rem;
+}
+button {
+  background-color: brown;
+  padding: 10px;
+  border: none;
+  opacity: 0.9;
+  font-size: 1rem;
+}
+button:hover {
+  color: white;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+tr {
+  border: 2px solid white;
+}
+td {
+  padding: 10px;
+}
+th {
+  padding: 10px;
+}
